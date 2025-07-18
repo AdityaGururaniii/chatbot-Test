@@ -1,4 +1,13 @@
 {
+  "name": "documentation-chatbot",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.52.0",
     "@types/react-syntax-highlighter": "^15.5.13",
